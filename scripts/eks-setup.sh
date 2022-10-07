@@ -17,7 +17,7 @@ sed -i -e "s/__AOS_USERNAME__/$AOS_USERNAME/g" observability-with-amazon-opensea
 sed -i -e "s/__AOS_PASSWORD__/$AOS_PASSWORD/g" observability-with-amazon-opensearch/sample-apps/01-data-preper/kubernetes/data-preper.yaml
 
 ##### Build and push the microservices images to the ECR repository #####
-cd observability-with-amazon-opensearch/scripts/
+cd observability-with-amazon-opensearch-blog/scripts/
 bash 01-build-push.sh
 
 ##### Apply the Kubernetes manifest #####
