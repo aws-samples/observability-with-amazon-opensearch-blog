@@ -27,7 +27,7 @@ Parameters:
   TemplateRepo:
     Description: 'Please enter the URL for the EKS Cluster template'
     Type: String
-    Default: "https://raw.githubusercontent.com/aws-samples/observability-with-amazon-opensearch-blog/main/cf-templates/eks.yaml"
+    Default: "https://aws-blogs-artifacts-public.s3.amazonaws.com/artifacts/BDB-2223/eks.yaml"
 
 Mappings:
   SubnetConfig:
