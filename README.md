@@ -5,7 +5,14 @@ Amazon OpenSearch Service’s Observability functionality allows you to go beyon
 ## Architecture
 ![architecture](/assets/arch.jpg)
 
-### (For Information Only) Manual Instrumentation to collect traces
+
+## Future Enhancements 🚀
+This repo only contains the artifacts for the blog.
+
+In order to track the latest future enhancements on Amazon OpenSearch Service Observability, follow Github repo - https://github.com/aws-samples/observability-with-amazon-opensearch. 
+
+
+## (For Information Only) Manual Instrumentation to collect traces
 
 As our sample microservice application is built using Python and Java, we have used OpenTelemetry Python packages to manually instrument our code.
 
@@ -116,12 +123,6 @@ def payment():
                     soldInventoryUpdateResponse.status_code)
 ```
 Similarly other application services are instrumented to capture trace data from application.
-
-
-## Future Enhancements 🚀
-This repo only contains the artifacts for the blog.
-
-In order to track the latest future enhancements on Amazon OpenSearch Service Observability, follow Github repo - https://github.com/aws-samples/observability-with-amazon-opensearch. 
 
 ## Security
 
